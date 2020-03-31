@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source tmp/vars.env
+source ${HOME}/MyScripts/tmp/vars.env
 
 get_ssh_user(){
   if [[ $(grep "$1" ${GENERAL_INVENTORY}) == *"Bitrix"* ]]

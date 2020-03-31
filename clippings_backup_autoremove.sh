@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source tmp/vars.env
+source ${HOME}/MyScripts/tmp/vars.env
 
 cd "$GOOGLE_DISK_BACKUP_DIR"
 

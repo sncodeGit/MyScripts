@@ -8,6 +8,9 @@ alias gotoroot='ssh -l root '
 
 # Own scripts
 alias getcl='~/MyScripts/getcl.sh'
+alias replace-ssh-key="~/MyScripts/replace-ssh-key.sh"
+alias replace-ssh-key-ppk="~/MyScripts/replace-ssh-key-ppk.sh"
+alias replace-ssh-key-roll-back="~/MyScripts/replace-ssh-key-roll-back.sh"
 
 # Utils modification
 alias wget='wget -O /dev/null'
@@ -23,3 +26,4 @@ alias t='cd ~/tmp; ls'
 alias ~='cd ~'
 alias b='cd ~/.bash; la'
 alias D='cd ~/Downloads; la'
+alias MS='cd ~/MyScripts; la'
