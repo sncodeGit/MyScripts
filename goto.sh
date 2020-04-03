@@ -21,7 +21,7 @@ then
   server_ip="$1"
 # client_id
 else
-  server_ip=$(${GENERAL_INVENTORY} "$1" | grep "$1" | cut -d ':' -f 2 | cut -d ' ' -f 2)
+  server_ip=$(cat ${GENERAL_INVENTORY} | grep "$1" | cut -d ':' -f 2 | cut -d ' ' -f 2)
 fi
 
 if [[ $(echo $server_ip | grep ' ' | wc -l) -eq "0" ]]
