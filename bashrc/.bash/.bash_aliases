@@ -15,6 +15,10 @@ alias replace-ssh-key-roll-back="~/MyScripts/replace-ssh-key-roll-back.sh"
 # Utils modification
 alias wget='wget -O /dev/null'
 alias docker='sudo docker'
+# Opstkhelp
+alias server-start='opstkhelp-manage-server -w start'
+alias server-stop='opstkhelp-manage-server -w stop'
+alias server-info='for server in `opstkhelp-get-info st-p-3`; do echo "${server} : $(opstkhelp-get-info -s ${server} st-p-3 | grep status= | cut -d '=' -f 2)"; done'
 
 # Repeat actions
 alias bash-reload='cd ~; source .bashrc'
