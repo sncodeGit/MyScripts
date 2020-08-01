@@ -14,7 +14,7 @@ alias replace-ssh-key-roll-back="~/MyScripts/replace-ssh-key-roll-back.sh"
 
 # Utils modification
 alias wget='wget -O /dev/null'
-alias docker='sudo docker'
+
 # Opstkhelp
 alias server-start='opstkhelp-manage-server -w start'
 alias server-stop='opstkhelp-manage-server -w stop'
@@ -31,3 +31,6 @@ alias ~='cd ~'
 alias b='cd ~/.bash; la'
 alias D='cd ~/Downloads; la'
 alias MS='cd ~/MyScripts; la'
+
+# Kubernetes
+alias k='kubectl'

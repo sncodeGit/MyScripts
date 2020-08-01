@@ -1,0 +1,1 @@
+focuswriter /home/selectel/Documents/ticket.txt
